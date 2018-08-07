@@ -1,0 +1,1 @@
+/built_in_type/function_tutorial.md を参照
