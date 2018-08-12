@@ -1,0 +1,5 @@
+# css info
+
+`/* comment */`
+
+`color`
