@@ -7,13 +7,26 @@
 
 ## プロパティ
 
-### 文字色、背景
+### 色
 
 `color`
 - 文字色を指定
 
+`opacity`
+- 要素の透明度(0.0~1.0)を指定
+
+### 背景
+
 `background-color`
 - 背景色を指定
+
+`background-image`
+- 背景画像を指定
+- `url()`を値にする
+
+`background-size`
+- 背景画像のサイズを指定
+- `cover`を値にすることで画面のサイズに合わせて表示
 
 ### フォント
 
@@ -25,6 +38,19 @@
 - [font-familyの書き方まとめ：CSSでフォント種類を指定しよう](https://saruwakakun.com/html-css/basic/font-family-how-to)
 
 ### テキスト
+
+`text-align`
+- 配置の揃え方向を設定
+- インラインオブジェクト、インラインブロックオブジェクトに対して設定
+```css
+{
+/* 左揃え:left 中央揃え:center 右揃え:right */
+text-align: center;
+}
+```
+
+`letter-spacing`
+- 文字の間の幅を指定
 
 ### 幅、高さ
 
@@ -39,6 +65,8 @@
 `margin`
 - マージンを設定
 	- 背景の端 と 隣のものの端 の間
+	- 横マージンに`auto`を指定すると中央寄せになる
+		- `width`を必ず指定
 
 `margin-top`
 
@@ -79,6 +107,9 @@ padding-bottom: 20px
 - 下ボーダーの太さ、色を指定する
 - `border`と同じようにそれぞれを指定することもできる
 
+`border-radius`
+- ボーダーの角を丸くする
+
 ### リスト
 
 `list-style`
@@ -89,6 +120,12 @@ padding-bottom: 20px
 ```
 
 ### 表示、配置
+
+`display`
+- 要素の種類を指定
+	- `block`
+	- `inline`
+	- `inline-block`
 
 `float`
 - 要素を横並びにする

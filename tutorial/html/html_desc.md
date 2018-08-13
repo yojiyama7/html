@@ -79,6 +79,22 @@
 ```
 <h6>Heading</h6>
 
+`<header></header>`
+- ヘッダー
+```html
+<header>
+  <p>logo</p>  
+</header>
+```
+
+`<footer></footer>`
+- フッター
+```html
+<footer>
+  <p>logo</p>  
+</footer>
+```
+
 ### コンテンツの分類
 
 `<p></p>`
@@ -197,3 +213,4 @@
 ```html
 <textarea></textarea>
 ```
+<textarea></textarea>

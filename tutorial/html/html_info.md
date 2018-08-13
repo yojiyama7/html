@@ -31,6 +31,10 @@
 
 `<h6></h6>`
 
+`<header></header>`
+
+`<footer></footer>`
+
 ### コンテンツの分類 
 
 `<p></p>`
