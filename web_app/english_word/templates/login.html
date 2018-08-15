@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="/static/login.css">
+{% endblock %}
+
+{% block content %}
+<div class="main">
+  <h2 class="main-heading">ログイン</h2>
+  <ul class="main-input">
+    <li>
+      <input class="id-input" text="text" size="30">
+    </li>
+    <li>
+      <input class="pass-input" text="text" size="30">
+    </li>
+  </ul>
+  <input class="submit-login" type="submit" value="ログイン">
+</div>
+{% endblock %}
